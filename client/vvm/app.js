@@ -1,7 +1,6 @@
 /**
  * Created by weagl on 11/19/2015.
  */
-import {inject} from 'aurelia-dependency-injection';
 
 export class App {
     constructor() {

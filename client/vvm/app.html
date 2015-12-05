@@ -1,9 +1,7 @@
 <template>
-    <require from="vvm/nav-bar.html"></require>
-
-    <nav-bar router.bind="router"></nav-bar>
-
-    <div class="ui main container">
-        <router-view></router-view>
-    </div>
+    <grid data.bind="data">
+        <column-definition property="name" heading="Name"></column-definition>
+        <column-definition property="age" heading="Age"></column-definition>
+        <column-definition property="sex" heading="Sex"></column-definition>
+    </grid>
 </template>

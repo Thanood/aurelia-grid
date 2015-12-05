@@ -24,14 +24,17 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.19",
+    "donnelljenkins/aurelia-datagrid": "github:donnelljenkins/aurelia-datagrid@0.1.4",
     "font-awesome": "npm:font-awesome@4.4.0",
+    "hubspot/tether": "github:hubspot/tether@1.1.1",
     "jquery": "github:components/jquery@2.1.4",
+    "lodash": "npm:lodash@3.10.1",
     "semantic-ui": "github:Semantic-Org/Semantic-UI@2.1.6",
     "github:Semantic-Org/Semantic-UI@2.1.6": {
       "css": "github:systemjs/plugin-css@0.1.19",
       "jquery": "github:components/jquery@2.1.4"
     },
-    "github:donnelljenkins/aurelia-datagrid@0.1.3": {
+    "github:donnelljenkins/aurelia-datagrid@0.1.4": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.1",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1",

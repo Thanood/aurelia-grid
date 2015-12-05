@@ -23,14 +23,6 @@
   },
   "homepage": "https://github.com/sameke/authentication-server#readme",
   "dependencies": {
-    "bunyan-log": "^1.0.0",
-    "compression": "^1.6.0",
-    "csprng": "^0.1.1",
-    "express": "^4.13.3",
-    "mongodb": "^2.0.48",
-    "node-app-config": "^1.0.2",
-    "q": "^1.4.1",
-    "simple-datejs": "^0.2.4"
   },
   "devDependencies": {
     "babel": "^5.8.34",
