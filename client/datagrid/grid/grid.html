@@ -1,0 +1,18 @@
+<template>
+    <table>
+        <thead>
+            <tr>
+                <th repeat.for="column of columnDefinitions">
+                    ${column.heading}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <grid-row repeat.for="model of data" model.bind="model" columns.bind="columnDefinitions" replace-part="grid-rows"></grid-row>
+
+            <!--<tr repeat.for="model of data">-->
+                <!--<td repeat.for="column of columnDefinitions">${model[column.property]}</td>-->
+            <!--</tr>-->
+        </tbody>
+    </table>
+</template>
