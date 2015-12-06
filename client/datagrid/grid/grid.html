@@ -1,4 +1,5 @@
 <template>
+    <require from="./components/grid-row"></require>
     <table>
         <thead>
             <tr>
@@ -8,8 +9,11 @@
             </tr>
         </thead>
         <tbody>
-            <grid-row repeat.for="model of data" model.bind="model" columns.bind="columnDefinitions" replace-part="grid-rows"></grid-row>
-
+            <template repeat.for="model of data">
+                <tr>
+                <grid-row model.bind="model" columns.bind="columnDefinitions" replace-part="grid-rows"></grid-row>
+                </tr>
+            </template>
             <!--<tr repeat.for="model of data">-->
                 <!--<td repeat.for="column of columnDefinitions">${model[column.property]}</td>-->
             <!--</tr>-->
